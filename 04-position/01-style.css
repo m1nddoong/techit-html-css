@@ -1,0 +1,90 @@
+#menu-bar {
+    position: relative;
+    width: 500px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 0.5px solid lightgrey;
+}
+
+#menu-next-button {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    box-sizing: border-box;
+    border: 0.5px solid lightgrey;
+    background-color: white;
+    border-radius: 50%;
+    right: -40px;
+    top: 10px;
+
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+
+body {
+    /* margin: 0px; //body 자채의 margin */
+    margin: 40px;
+    height: 300vh;
+}
+
+.box {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 100px;
+    /* margin: 10px;  박스끼리 서로 거리두기 */
+    box-sizing: border-box;
+}
+
+/* relative */
+.relative {
+    background-color: green;
+    position: relative;
+    bottom: 50px;
+    left: 50px
+    
+}
+
+.absolute {
+    background-color: yellowgreen;
+    position: absolute;
+    left: 450px;
+    top: 200px;
+
+    
+}
+
+#big-box {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: grey;
+}
+
+.fixed {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: magenta;
+}
+
+.fixed-2 {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    background-color: blueviolet;
+    border-radius: 50%;
+}
+
+.sticky {
+    position: sticky;
+    background-color: chocolate;
+    top: 0px;
+    left: 50px;
+}
+
+.bottom-margin {
+    height: 10px;
+    margin-bottom: 1500px;
+}
